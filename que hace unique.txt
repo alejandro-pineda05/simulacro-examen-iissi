@@ -1,0 +1,1 @@
+la cláusula UNIQUE (videojuegoId, jugadorId) asegura que la combinación de estos dos valores sea única en la tabla Valoraciones. Es decir, no puede haber dos registros con el mismo par de valores para videojuegoId y jugadorId. Esto previene la inserción de duplicados, garantizando que un jugador no pueda valorar el mismo videojuego más de una vez.
